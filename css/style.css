@@ -1,0 +1,1765 @@
+@charset "UTF-8";
+.txt-8, .h7-N {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 0.5rem;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-8-B, .h7-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 0.5rem;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-12, .h6-N {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-12-B, .h6-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-16, .h5-N {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-16-B, .h5-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-16-S {
+  line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+  letter-spacing: 0px; /* 将文字字符之间的水平间距增加为 2 像素 */
+  font-size: 16px;
+}
+
+.txt-20, .h4-N {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-20-B, .h4-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-24 {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-24-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-28, .h3-N {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 1.8rem;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-28-B, .h3-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-30-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-32, .h2-N {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-32-B, .h2-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-36 {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-36-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-40, .h1-N {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 3rem;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-40-B, .h1-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-64-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 64px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-default {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.title-01 {
+  padding: 64px 0 16px 0;
+}
+.title-01 span {
+  font-size: 28px;
+  font-weight: bold;
+}
+.title-01 p {
+  font-size: 16px;
+}
+
+.title-02 {
+  padding: 40px 0 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+.title-02 span {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 0 16px 0;
+}
+.title-02 p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.title-03 {
+  padding: 40px 0 16px 0;
+}
+
+.title-04 {
+  padding: 24px 0 16px 0;
+}
+
+.cdo {
+  font-size: 8px;
+}
+
+.text-container {
+  width: 100%;
+  max-height: 560px;
+  overflow-y: auto;
+  /* 允許垂直滾動 */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.txt-white {
+  color: #FFFFFF;
+}
+
+.heading-table table,
+.level-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.heading-table th,
+.heading-table td,
+.level-table th,
+.level-table td {
+  border: 1px solid #dddddd;
+  /* text-align: left; */
+  padding: 8px;
+}
+
+.spacing-container {
+  margin: 20px;
+}
+.spacing-container .spacing-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.spacing-container .spacing-row span {
+  flex: 1;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.spacing-container .box {
+  background-color: #d3d3d3;
+}
+.spacing-container .box-4 {
+  width: 4px;
+  height: 4px;
+}
+.spacing-container .box-8 {
+  width: 8px;
+  height: 8px;
+}
+.spacing-container .box-16 {
+  width: 16px;
+  height: 16px;
+}
+.spacing-container .box-24 {
+  width: 24px;
+  height: 24px;
+}
+.spacing-container .box-40 {
+  width: 40px;
+  height: 40px;
+}
+.spacing-container .box-64 {
+  width: 64px;
+  height: 64px;
+}
+.spacing-container .box-104 {
+  width: 104px;
+  height: 104px;
+}
+
+.interval-example {
+  display: flex;
+  flex-direction: row;
+}
+.interval-example .interval-mobile {
+  background-color: rgba(211, 211, 211, 0.263);
+}
+.interval-example .interval-pc {
+  background-color: rgba(211, 211, 211, 0.263);
+}
+
+.index .bg-txt {
+  padding: 40px 0 0 0;
+}
+.index .bg-txt p {
+  text-align: center;
+}
+.index .async {
+  display: flex;
+  align-items: center;
+}
+.index .async .async-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index .async .async-p img {
+  width: auto;
+  max-height: 320px;
+}
+.index .async .personal {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+/* 修改反白選取顏色 */
+::-moz-selection {
+  background-color: #e3e4d3;
+  /* 選取時的背景色 */
+  color: #322c28;
+  /* 選取時的文字顏色 */
+}
+::selection {
+  background-color: #e3e4d3;
+  /* 選取時的背景色 */
+  color: #322c28;
+  /* 選取時的文字顏色 */
+}
+
+/* 適用於 Firefox 瀏覽器的選取顏色 */
+::-moz-selection {
+  background-color: #e3e4d3;
+  color: #322c28;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.color-box {
+  width: 4rem;
+  height: 2rem;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+@media (max-width: 992px) {
+  .color-box {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+/* 顏色樣式 */
+.red-50 {
+  background-color: #ffebee;
+}
+
+.red-100 {
+  background-color: #ffcdd2;
+}
+
+.red-200 {
+  background-color: #ef9a9a;
+}
+
+.red-300 {
+  background-color: #e57373;
+}
+
+.red-400 {
+  background-color: #ef5350;
+}
+
+.red-500 {
+  background-color: #f44336;
+}
+
+.red-600 {
+  background-color: #e53935;
+  color: #e53935;
+}
+
+.red-700 {
+  background-color: #d32f2f;
+}
+
+.red-800 {
+  background-color: #c62828;
+}
+
+.red-900 {
+  background-color: #b71c1c;
+}
+
+.pink-50 {
+  background-color: #fce4ec;
+}
+
+.pink-100 {
+  background-color: #f8bbd0;
+}
+
+.pink-200 {
+  background-color: #f48fb1;
+}
+
+.pink-300 {
+  background-color: #f06292;
+}
+
+.pink-400 {
+  background-color: #ec407a;
+}
+
+.pink-500 {
+  background-color: #e91e63;
+}
+
+.pink-600 {
+  background-color: #d81b60;
+}
+
+.pink-700 {
+  background-color: #c2185b;
+}
+
+.pink-800 {
+  background-color: #ad1457;
+}
+
+.pink-900 {
+  background-color: #880e4f;
+}
+
+.purple-50 {
+  background-color: #f3e5f5;
+}
+
+.purple-100 {
+  background-color: #e1bee7;
+}
+
+.purple-200 {
+  background-color: #ce93d8;
+}
+
+.purple-300 {
+  background-color: #ba68c8;
+}
+
+.purple-400 {
+  background-color: #ab47bc;
+}
+
+.purple-500 {
+  background-color: #9c27b0;
+}
+
+.purple-600 {
+  background-color: #8e24aa;
+}
+
+.purple-700 {
+  background-color: #7b1fa2;
+}
+
+.purple-800 {
+  background-color: #6a1b9a;
+}
+
+.purple-900 {
+  background-color: #4a148c;
+}
+
+.deep-purple-50 {
+  background-color: #ede7f6;
+}
+
+.deep-purple-100 {
+  background-color: #d1c4e9;
+}
+
+.deep-purple-200 {
+  background-color: #b39ddb;
+}
+
+.deep-purple-300 {
+  background-color: #9575cd;
+}
+
+.deep-purple-400 {
+  background-color: #7e57c2;
+}
+
+.deep-purple-500 {
+  background-color: #673ab7;
+}
+
+.deep-purple-600 {
+  background-color: #5e35b1;
+}
+
+.deep-purple-700 {
+  background-color: #512da8;
+}
+
+.deep-purple-800 {
+  background-color: #4527a0;
+}
+
+.deep-purple-900 {
+  background-color: #311b92;
+}
+
+.indigo-50 {
+  background-color: #e8eaf6;
+}
+
+.indigo-100 {
+  background-color: #c5cae9;
+}
+
+.indigo-200 {
+  background-color: #9fa8da;
+}
+
+.indigo-300 {
+  background-color: #7986cb;
+}
+
+.indigo-400 {
+  background-color: #5c6bc0;
+}
+
+.indigo-500 {
+  background-color: #3f51b5;
+}
+
+.indigo-600 {
+  background-color: #3949ab;
+}
+
+.indigo-700 {
+  background-color: #303f9f;
+}
+
+.indigo-800 {
+  background-color: #283593;
+}
+
+.indigo-900 {
+  background-color: #1a237e;
+}
+
+.blue-50 {
+  background-color: #e3f0fd;
+}
+
+.blue-100 {
+  background-color: #bbd9fb;
+}
+
+.blue-200 {
+  background-color: #90c2f9;
+}
+
+.blue-300 {
+  background-color: #64aaf6;
+}
+
+.blue-400 {
+  background-color: #4297f5;
+}
+
+.blue-500 {
+  background-color: #2186f3;
+}
+
+.blue-600 {
+  background-color: #1e79e5;
+}
+
+.blue-700 {
+  background-color: #1968d2;
+}
+
+.blue-800 {
+  background-color: #1558c0;
+}
+
+.blue-900 {
+  background-color: #0637a1;
+}
+
+.light-blue-50 {
+  background-color: #e1f5fe;
+}
+
+.light-blue-100 {
+  background-color: #b3e5fc;
+}
+
+.light-blue-200 {
+  background-color: #81d4fa;
+}
+
+.light-blue-300 {
+  background-color: #4fc3f7;
+}
+
+.light-blue-400 {
+  background-color: #29b6f6;
+}
+
+.light-blue-500 {
+  background-color: #03a9f4;
+}
+
+.light-blue-600 {
+  background-color: #039be5;
+}
+
+.light-blue-700 {
+  background-color: #0288d1;
+}
+
+.light-blue-800 {
+  background-color: #0277bd;
+}
+
+.light-blue-900 {
+  background-color: #01579b;
+}
+
+.cyan-50 {
+  background-color: #e0f7fa;
+}
+
+.cyan-100 {
+  background-color: #b2ebf2;
+}
+
+.cyan-200 {
+  background-color: #80deea;
+}
+
+.cyan-300 {
+  background-color: #4dd0e1;
+}
+
+.cyan-400 {
+  background-color: #26c6da;
+}
+
+.cyan-500 {
+  background-color: #00bcd4;
+}
+
+.cyan-600 {
+  background-color: #00acc1;
+}
+
+.cyan-700 {
+  background-color: #0097a7;
+}
+
+.cyan-800 {
+  background-color: #00838f;
+}
+
+.cyan-900 {
+  background-color: #006064;
+}
+
+.teal-50 {
+  background-color: #e0f2f1;
+}
+
+.teal-100 {
+  background-color: #b2dfdb;
+}
+
+.teal-200 {
+  background-color: #80cbc4;
+}
+
+.teal-300 {
+  background-color: #4db6ac;
+}
+
+.teal-400 {
+  background-color: #26a69a;
+}
+
+.teal-500 {
+  background-color: #009688;
+}
+
+.teal-600 {
+  background-color: #00897b;
+}
+
+.teal-700 {
+  background-color: #00796b;
+}
+
+.teal-800 {
+  background-color: #00695c;
+}
+
+.teal-900 {
+  background-color: #004d40;
+}
+
+.green-50 {
+  background-color: #e8f5e9;
+}
+
+.green-100 {
+  background-color: #c8e6c9;
+}
+
+.green-200 {
+  background-color: #a5d6a7;
+}
+
+.green-300 {
+  background-color: #81c784;
+}
+
+.green-400 {
+  background-color: #66bb6a;
+}
+
+.green-500 {
+  background-color: #4caf50;
+}
+
+.green-600 {
+  background-color: #43a047;
+}
+
+.green-700 {
+  background-color: #388e3c;
+}
+
+.green-800 {
+  background-color: #2e7d32;
+}
+
+.green-900 {
+  background-color: #1b5e20;
+}
+
+.light-green-50 {
+  background-color: #f1f8e9;
+}
+
+.light-green-100 {
+  background-color: #dcedc8;
+}
+
+.light-green-200 {
+  background-color: #c5e1a5;
+}
+
+.light-green-300 {
+  background-color: #aed581;
+}
+
+.light-green-400 {
+  background-color: #9ccc65;
+}
+
+.light-green-500 {
+  background-color: #8bc34a;
+}
+
+.light-green-600 {
+  background-color: #7cb342;
+}
+
+.light-green-700 {
+  background-color: #689f38;
+}
+
+.light-green-800 {
+  background-color: #558b2f;
+}
+
+.light-green-900 {
+  background-color: #33691e;
+}
+
+.lime-50 {
+  background-color: #f9fbe7;
+}
+
+.lime-100 {
+  background-color: #f0f4c3;
+}
+
+.lime-200 {
+  background-color: #e6ee9c;
+}
+
+.lime-300 {
+  background-color: #dce775;
+}
+
+.lime-400 {
+  background-color: #d4e157;
+}
+
+.lime-500 {
+  background-color: #cddc39;
+}
+
+.lime-600 {
+  background-color: #c0ca33;
+}
+
+.lime-700 {
+  background-color: #afb42b;
+}
+
+.lime-800 {
+  background-color: #9e9d24;
+}
+
+.lime-900 {
+  background-color: #827717;
+}
+
+.yellow-50 {
+  background-color: #fffde7;
+}
+
+.yellow-100 {
+  background-color: #fff9c4;
+}
+
+.yellow-200 {
+  background-color: #fff59d;
+}
+
+.yellow-300 {
+  background-color: #fff176;
+}
+
+.yellow-400 {
+  background-color: #ffee58;
+}
+
+.yellow-500 {
+  background-color: #ffeb3b;
+}
+
+.yellow-600 {
+  background-color: #fdd835;
+}
+
+.yellow-700 {
+  background-color: #fbc02d;
+}
+
+.yellow-800 {
+  background-color: #f9a825;
+}
+
+.yellow-900 {
+  background-color: #f57f17;
+}
+
+.amber-50 {
+  background-color: #fff8e1;
+}
+
+.amber-100 {
+  background-color: #ffecb3;
+}
+
+.amber-200 {
+  background-color: #ffe082;
+}
+
+.amber-300 {
+  background-color: #ffd54f;
+}
+
+.amber-400 {
+  background-color: #ffca28;
+}
+
+.amber-500 {
+  background-color: #ffc107;
+}
+
+.amber-600 {
+  background-color: #ffb300;
+}
+
+.amber-700 {
+  background-color: #ffa000;
+}
+
+.amber-800 {
+  background-color: #ff8f00;
+}
+
+.amber-900 {
+  background-color: #ff6f00;
+}
+
+.orange-50 {
+  background-color: #fff3e0;
+}
+
+.orange-100 {
+  background-color: #ffe0b2;
+}
+
+.orange-200 {
+  background-color: #ffcc80;
+}
+
+.orange-300 {
+  background-color: #ffb74d;
+}
+
+.orange-400 {
+  background-color: #ffa726;
+}
+
+.orange-500 {
+  background-color: #ff9800;
+}
+
+.orange-600 {
+  background-color: #fb8c00;
+}
+
+.orange-700 {
+  background-color: #f57c00;
+}
+
+.orange-800 {
+  background-color: #ef6c00;
+}
+
+.orange-900 {
+  background-color: #e65100;
+}
+
+.deep-orange-50 {
+  background-color: #fbe9e7;
+}
+
+.deep-orange-100 {
+  background-color: #ffccbc;
+}
+
+.deep-orange-200 {
+  background-color: #ffab91;
+}
+
+.deep-orange-300 {
+  background-color: #ff8a65;
+}
+
+.deep-orange-400 {
+  background-color: #ff7043;
+}
+
+.deep-orange-500 {
+  background-color: #ff5722;
+}
+
+.deep-orange-600 {
+  background-color: #f4511e;
+}
+
+.deep-orange-700 {
+  background-color: #e64a19;
+}
+
+.deep-orange-800 {
+  background-color: #d84315;
+}
+
+.deep-orange-900 {
+  background-color: #bf360c;
+}
+
+.light-brown-50 {
+  background-color: #fff2ee;
+}
+
+.light-brown-100 {
+  background-color: #f6e0d7;
+}
+
+.light-brown-200 {
+  background-color: #eecec0;
+}
+
+.light-brown-300 {
+  background-color: #d8a99e;
+}
+
+.light-brown-400 {
+  background-color: #cc9281;
+}
+
+.light-brown-500 {
+  background-color: #c67f63;
+}
+
+.light-brown-600 {
+  background-color: #c67252;
+}
+
+.light-brown-700 {
+  background-color: #ba6038;
+}
+
+.light-brown-800 {
+  background-color: #b25932;
+}
+
+.light-brown-900 {
+  background-color: #a34217;
+}
+
+.brown-50 {
+  background-color: #fef1f0;
+}
+
+.brown-100 {
+  background-color: #dfc6c2;
+}
+
+.brown-200 {
+  background-color: #d1b2ae;
+}
+
+.brown-300 {
+  background-color: #bf918c;
+}
+
+.brown-400 {
+  background-color: #b27972;
+}
+
+.brown-500 {
+  background-color: #a86762;
+}
+
+.brown-600 {
+  background-color: #995250;
+}
+
+.brown-700 {
+  background-color: #8e403e;
+}
+
+.brown-800 {
+  background-color: #7b2e2c;
+}
+
+.brown-900 {
+  background-color: #61180e;
+}
+
+.dark-brown-50 {
+  background-color: #efebe9;
+}
+
+.dark-brown-100 {
+  background-color: #d7ccc8;
+}
+
+.dark-brown-200 {
+  background-color: #bcaaa4;
+}
+
+.dark-brown-300 {
+  background-color: #a1887f;
+}
+
+.dark-brown-400 {
+  background-color: #8d6e63;
+}
+
+.dark-brown-500 {
+  background-color: #795548;
+}
+
+.dark-brown-600 {
+  background-color: #6d4c41;
+}
+
+.dark-brown-700 {
+  background-color: #5d4037;
+}
+
+.dark-brown-800 {
+  background-color: #4e342e;
+}
+
+.dark-brown-900 {
+  background-color: #3e2723;
+}
+
+.grey-50 {
+  background-color: #fafafa;
+}
+
+.grey-100 {
+  background-color: #f5f5f5;
+}
+
+.grey-200 {
+  background-color: #eeeeee;
+}
+
+.grey-300 {
+  background-color: #e0e0e0;
+}
+
+.grey-400 {
+  background-color: #bdbdbd;
+}
+
+.grey-500 {
+  background-color: #9e9e9e;
+}
+
+.grey-600 {
+  background-color: #757575;
+}
+
+.grey-700 {
+  background-color: #616161;
+}
+
+.grey-800 {
+  background-color: #424242;
+}
+
+.grey-900 {
+  background-color: #212121;
+}
+
+.blue-grey-50 {
+  background-color: #eceff1;
+}
+
+.blue-grey-100 {
+  background-color: #cfd8dc;
+}
+
+.blue-grey-200 {
+  background-color: #b0bec5;
+}
+
+.blue-grey-300 {
+  background-color: #90a4ae;
+}
+
+.blue-grey-400 {
+  background-color: #78909c;
+}
+
+.blue-grey-500 {
+  background-color: #607d8b;
+}
+
+.blue-grey-600 {
+  background-color: #546e7a;
+}
+
+.blue-grey-700 {
+  background-color: #455a64;
+}
+
+.blue-grey-800 {
+  background-color: #37474f;
+}
+
+.blue-grey-900 {
+  background-color: #263238;
+}
+
+.white {
+  background-color: #FFFFFF;
+}
+
+.black {
+  background-color: #212121;
+}
+
+.nav-color {
+  background-color: #19456B;
+  width: 30px;
+  height: 40px;
+}
+
+.color-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 400px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  margin: 10px;
+}
+.color-container .color-ticket {
+  display: flex;
+}
+.color-container .color-ticket .color-box {
+  border-radius: 0px;
+}
+.color-container .swatch-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.color-container .swatch-row-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.color-container .swatch-row-box .color-box {
+  width: 20px;
+  height: 20px;
+  border-radius: 0px;
+}
+.color-container .swatch-row-box .color-code {
+  font-size: 14px;
+  color: #333;
+}
+
+.ex-nav-color {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.w11-no-signal {
+  background-color: #BDB9A5;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  height: 300px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-style01 {
+  background-color: #558b2f;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  padding: 10px;
+}
+.btn-style01:hover {
+  background-color: #33691e;
+  color: #FFFFFF;
+  border-color: transparent;
+}
+.btn-style01:active, .btn-check:checked + .btn-style01, .btn-style01.active, .btn-style01.show, .btn-style01:first-child:active, .btn-style01:not(.btn-check) + .btn-style01:active {
+  background-color: #ff7043;
+  color: #FFFFFF;
+  border-color: #fdd835;
+}
+
+.btn-style02 {
+  background-color: #1558c0;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+}
+.btn-style02:hover {
+  background-color: #FFFFFF;
+  color: #1558c0;
+  border-color: transparent;
+  border: 1px solid #1558c0;
+}
+.btn-style02:active, .btn-check:checked + .btn-style02, .btn-style02.active, .btn-style02.show, .btn-style02:first-child:active, .btn-style02:not(.btn-check) + .btn-style02:active {
+  background-color: #1e79e5;
+  color: #FFFFFF;
+  border-color: #1558c0;
+}
+
+.btn-style03 {
+  background-color: #FFFFFF;
+  color: #1558c0;
+  border: 1px solid #1558c0;
+}
+.btn-style03:hover {
+  background-color: #f5f5f5;
+  color: #1558c0;
+  border-color: transparent;
+  border: 1px solid #1558c0;
+}
+.btn-style03:active, .btn-check:checked + .btn-style03, .btn-style03.active, .btn-style03.show, .btn-style03:first-child:active, .btn-style03:not(.btn-check) + .btn-style03:active {
+  background-color: #1e79e5;
+  color: #FFFFFF;
+  border-color: #1558c0;
+}
+
+.corners-box {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  border-radius: 6px;
+  background-color: #999;
+}
+
+/* 不同的圓角樣式 */
+.border-0 {
+  border-radius: 0;
+}
+
+.border-8 {
+  border-radius: 8px;
+}
+
+.border-16 {
+  border-radius: 16px;
+}
+
+.border-32 {
+  border-radius: 32px;
+}
+
+.border-100 {
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .corners-box {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+.border-8 {
+  border-radius: 4px;
+  /* 調整相對圓角 */
+}
+
+.border-16 {
+  border-radius: 8px;
+}
+
+.border-32 {
+  border-radius: 16px;
+}
+
+.border-100 {
+  border-radius: 25%;
+  /* 保持比例縮放，防止變成完全圓形 */
+}
+
+.container {
+  padding: 30px 0;
+}
+.container .row {
+  gap: 16px 0;
+  align-items: flex-end;
+}
+
+.navbar-container {
+  width: 100%;
+}
+.navbar-container .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Noto Serif TC", sans-serif;
+  margin: auto 0;
+  padding: 32px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  background-color: #ececec;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header p {
+  font-size: 20px;
+  font-family: "Noto Serif TC", serif;
+  font-weight: revert;
+  letter-spacing: 8px;
+  color: #7F8B75;
+}
+
+.navbar {
+  background-color: #D9D9D9;
+  margin: 16px auto;
+  border-radius: 10px; /* 圓角半徑 */
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #D9D9D9;
+  border-radius: 10px; /* 圓角半徑 */
+}
+
+/* 其他頁面有margin-top */
+.page .footer {
+  margin-top: 80px;
+}
+
+/* 首頁不需要margin-top */
+.home .footer {
+  margin-top: 0;
+}
+
+.combination {
+  border: 1px solid #bfbfbf;
+  /* 实线边框 */
+  border-radius: 8px;
+  /* 20像素的圆角 */
+  background-color: #E1E6E0;
+  margin: 0 0 32px 0;
+  padding: 4px;
+}
+.combination .row {
+  display: flex;
+}
+.combination .example {
+  padding: 4px;
+}
+.combination .cod {
+  padding: 10px;
+  background-color: #F8F9FA;
+  font-size: 10px;
+}
+
+.navbar-brand {
+  font-family: "Noto Serif TC", serif;
+  font-size: 16px;
+  color: #eaecee;
+}
+
+.offcanvas {
+  background-color: #eaecee;
+}
+.offcanvas .offcanvas-body .navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: #394430;
+  --bs-nav-link-hover-color: #e34f76;
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.offcanvas .offcanvas-body .navbar-nav .nav-item {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+  padding: 8px 14px;
+}
+.offcanvas .offcanvas-body .navbar-nav .nav-link.active,
+.offcanvas .offcanvas-body .navbar-nav .nav-link.show {
+  color: #ffffff;
+  background-color: #609266;
+}
+.offcanvas .dropdown-item:focus,
+.offcanvas .dropdown-item:hover {
+  color: #394430;
+  background-color: #d5d5d5;
+}
+.offcanvas .dropdown-item.active,
+.offcanvas .dropdown-item:active {
+  color: #394430;
+  text-decoration: none;
+  background-color: #d4dfcb;
+}
+
+/* 重置所有元素的邊距、內距、邊框、字體大小、字體及垂直對齊基準 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* 將HTML5新增的語意元素設定為區塊元素 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* 設定整個文件的行高為1，避免不必要的行高差異 */
+body {
+  line-height: 1;
+}
+
+/* 清除有序列表和無序列表的預設樣式 */
+ol,
+ul {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  /* 去除底線 */
+  color: inherit;
+  /* 使用父元素的文字顏色 */
+}
+
+/* 清除引用樣式的引號 */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* 清除表格的邊框塌陷和單元格間的間距 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+p {
+  font-size: 16px;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}/*# sourceMappingURL=style.css.map */

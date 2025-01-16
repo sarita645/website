@@ -1,0 +1,408 @@
+// 變數定義
+$border-style: solid;
+$border-width: 0px;
+$padding: 0px;
+$display: flex;
+$align-items: center;
+$justify-content: center;
+$margin: 2px 0;
+$line-height: 1.5;
+$default-font-size: 16px;
+$font-family: "NotoSansTc-Regular", sans-serif;
+$color: #333333;
+$white-color: #FFFFFF; // 定義白色字體
+
+// 混合，用於生成文字樣式
+@mixin text-style($font-size: $default-font-size, $font-weight: normal) {
+  border-style: $border-style;
+  border-width: $border-width;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  padding: $padding;
+  margin: $margin;
+  line-height: $line-height;
+  font-family: $font-family;
+  color: $color;
+}
+
+
+//行高
+$line-height: 1.5;
+
+
+
+// 文字具體的樣式
+.txt-8 {
+  @include text-style(0.5rem);
+}
+
+.txt-8-B {
+  @include text-style(0.5rem, bold);
+}
+
+.h7-N {
+  @extend .txt-8;
+}
+
+.h7-B {
+  @extend .txt-8-B;
+}
+
+
+
+.txt-12 {
+  @include text-style(12px);
+}
+
+.h6-N {
+  @extend .txt-12;
+}
+
+.txt-12-B {
+  @include text-style(12px, bold);
+}
+
+.h6-B {
+  @extend .txt-12-B;
+}
+
+
+
+.txt-16 {
+  @include text-style(16px);
+}
+
+.h5-N {
+  @extend .txt-16;
+}
+
+.txt-16-B {
+  @include text-style(16px, bold);
+}
+
+.h5-B {
+  @extend .txt-16-B;
+}
+
+
+.txt-16-S{
+  line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+  letter-spacing: 0px; /* 将文字字符之间的水平间距增加为 2 像素 */
+  font-size: 16px;
+}
+
+
+
+.txt-20 {
+  @include text-style(20px);
+}
+
+.h4-N {
+  @extend .txt-20;
+}
+
+.txt-20-B {
+  @include text-style(20px, bold);
+}
+
+.h4-B {
+  @extend .txt-20-B;
+}
+
+
+
+
+
+.txt-24 {
+  @include text-style(1.5rem);
+}
+
+.txt-24-B {
+  @include text-style(1.5rem, bold);
+}
+
+
+
+
+
+.txt-28 {
+  @include text-style(1.8rem);
+}
+
+.h3-N {
+  @extend .txt-28;
+}
+
+.txt-28-B {
+  @include text-style(1.8rem, bold);
+}
+
+.h3-B {
+  @extend .txt-28-B;
+}
+
+
+
+
+.txt-30-B {
+  @include text-style(30px, bold);
+}
+
+
+
+
+.txt-32 {
+  @include text-style(2rem);
+}
+
+.h2-N {
+  @extend .txt-32;
+}
+
+.txt-32-B {
+  @include text-style(2rem, bold);
+}
+
+.h2-B {
+  @extend .txt-32-B;
+}
+
+
+
+.txt-36 {
+  @include text-style(2rem);
+}
+
+.txt-36-B {
+  @include text-style(2rem, bold);
+}
+
+
+
+
+.txt-40 {
+  @include text-style(3rem);
+}
+
+.h1-N {
+  @extend .txt-40;
+}
+
+.txt-40-B {
+  @include text-style(3rem, bold);
+}
+
+.h1-B {
+  @extend .txt-40-B;
+}
+
+
+
+
+.txt-64-B {
+  @include text-style(64px, bold);
+}
+
+
+
+
+
+// 沒有指定字體大小時，默認使用 16px
+
+.txt-default {
+  @include text-style(1rem);
+}
+
+
+
+
+
+
+
+
+
+
+//------------------------標題樣式
+
+//標題-H1、H2 適用 
+.title-01 {
+  padding: 64px 0 16px 0;
+
+  span {
+    font-size: 28px;
+    font-weight: bold;
+
+  }
+
+  p {
+    font-size: 16px;
+
+  }
+}
+
+
+
+//標題 H3 適用
+.title-02 {
+  padding: 40px 0 16px 0;
+  display: flex;
+
+  flex-direction: column;
+
+  span {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 16px 0;
+  }
+
+
+  p {
+    font-size: 16px;
+    // line-height: 1.5;
+    line-height: $line-height;
+  }
+}
+
+
+//標題 H4、5 適用
+.title-03 {
+  padding: 40px 0 16px 0;
+}
+
+//標題 H6、7.... 適用
+
+.title-04 {
+  padding: 24px 0 16px 0;
+}
+
+
+
+
+
+.cdo {
+  font-size: 8px;
+}
+
+
+
+.text-container {
+  width: 100%;
+  max-height: 560px;
+  overflow-y: auto;
+  /* 允許垂直滾動 */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+
+
+}
+
+.txt-white {
+  color: $white-color;
+
+}
+
+
+//---------------------------------
+
+
+.heading-table,
+.level-table {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+
+  th,
+  td {
+    border: 1px solid #dddddd;
+    /* text-align: left; */
+    padding: 8px;
+  }
+}
+
+
+
+.spacing-container {
+  margin: 20px;
+
+
+  .spacing-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .spacing-row span {
+    flex: 1;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .box {
+    background-color: #d3d3d3;
+  }
+
+  .box-4 {
+    width: 4px;
+    height: 4px;
+  }
+
+  .box-8 {
+    width: 8px;
+    height: 8px;
+  }
+
+  .box-16 {
+    width: 16px;
+    height: 16px;
+  }
+
+  .box-24 {
+    width: 24px;
+    height: 24px;
+  }
+
+  .box-40 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .box-64 {
+    width: 64px;
+    height: 64px;
+  }
+
+  .box-104 {
+    width: 104px;
+    height: 104px;
+  }
+}
+
+
+
+
+//------------------------------
+
+
+.interval-example {
+  display: flex;
+  flex-direction: row;
+
+  .interval-mobile {
+
+    background-color: rgba(211, 211, 211, 0.263);
+
+
+
+
+  }
+
+
+  .interval-pc {
+
+    background-color: rgba(211, 211, 211, 0.263);
+
+  }
+}

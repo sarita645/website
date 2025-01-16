@@ -1,0 +1,107 @@
+//-----------------------按鈕基本款式(寬高)
+
+
+
+//按鈕文字+icon
+button {
+  display: flex
+  ;
+      align-items: center;
+gap: 8px;
+}
+
+
+
+
+
+
+//------------------------------------btn-blue-style
+
+.btn-style01 {
+  background-color: $light-green-800;
+  color: $white;
+  border: 1px solid transparent;
+padding: 10px;
+
+  &:hover {
+    background-color:$light-green-900;
+    color: $white;
+    border-color: transparent;
+  }
+
+  &:active,
+  .btn-check:checked+&,
+  &.active,
+  &.show,
+  &:first-child:active,
+  &:not(.btn-check)+&:active {
+
+    background-color: $deep-orange-400;
+    color: $white;
+    border-color: $yellow-600;
+  }
+
+
+}
+
+
+
+
+
+.btn-style02 {
+  background-color: $blue-800;
+  color: $white;
+  border: 1px solid transparent;
+
+  &:hover {
+    background-color: $white;
+    color: $blue-800;
+    border-color: transparent;
+    border: 1px solid $blue-800;
+  }
+
+  &:active,
+  .btn-check:checked+&,
+  &.active,
+  &.show,
+  &:first-child:active,
+  &:not(.btn-check)+&:active {
+
+    background-color: $blue-600;
+    color: $white;
+    border-color: $blue-800;
+  }
+}
+
+
+
+.btn-style03 {
+  background-color: $white;
+  color: $blue-800 ;
+
+  border: 1px solid $blue-800;
+
+  &:hover {
+    background-color: $grey-100;
+    color: $blue-800;
+    border-color: transparent;
+    border: 1px solid $blue-800;
+  }
+
+  &:active,
+  .btn-check:checked+&,
+  &.active,
+  &.show,
+  &:first-child:active,
+  &:not(.btn-check)+&:active {
+
+    background-color: $blue-600;
+    color: $white;
+    border-color: $blue-800;
+  }
+}
+
+
+
+
+//-----------------------------

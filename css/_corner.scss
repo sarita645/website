@@ -1,0 +1,62 @@
+.corners-box {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  border-radius: 6px;
+  background-color: #999;
+}
+
+
+
+
+
+
+
+/* 不同的圓角樣式 */
+.border-0 {
+  border-radius: 0;
+}
+
+.border-8 {
+  border-radius: 8px;
+}
+
+.border-16 {
+  border-radius: 16px;
+}
+
+.border-32 {
+  border-radius: 32px;
+}
+
+.border-100 {
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .corners-box {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+
+
+
+.border-8 {
+  border-radius: 4px;
+  /* 調整相對圓角 */
+}
+
+.border-16 {
+  border-radius: 8px;
+}
+
+.border-32 {
+  border-radius: 16px;
+}
+
+.border-100 {
+  border-radius: 25%;
+  /* 保持比例縮放，防止變成完全圓形 */
+}

@@ -1,0 +1,69 @@
+.index {
+
+
+
+
+
+
+  .bg-txt {
+    padding: 40px 0 0 0;
+
+    p {
+      text-align: center;
+
+    }
+  }
+
+
+.async {
+  display: flex;
+      align-items: center;
+
+
+      .async-p{
+        display: flex
+        ;
+            justify-content: center;
+            align-items: center;
+            img{
+              width: auto;
+              max-height: 320px;
+      }
+
+  
+  }
+
+
+.personal{
+  display: flex
+  ;
+      gap: 30px;
+      flex-direction: column;
+}
+
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+/* 修改反白選取顏色 */
+::selection {
+  background-color: #e3e4d3;
+  /* 選取時的背景色 */
+  color: #322c28;
+  /* 選取時的文字顏色 */
+}
+
+/* 適用於 Firefox 瀏覽器的選取顏色 */
+::-moz-selection {
+  background-color: #e3e4d3;
+  color: #322c28;
+}
