@@ -1,64 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>UI KIT</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-      
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-          crossorigin="anonymous"></script>
-        <script>
-          // 加載並插入 navbar
-          fetch('navbar.html')
-            .then(response => response.text())
-            .then(data => {
-              document.getElementById('navbar-container').innerHTML = data;
-              highlightCurrentPage(); // 加載完成後執行 active 樣式
-            });
-      
-          // 判斷當前頁面並設置 active 樣式
-          function highlightCurrentPage() {
-            const currentPath = window.location.pathname.split('/').pop(); // 獲取當前頁面的檔名
-      
-            // 處理一般的 navbar 連結
-            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-            navLinks.forEach(link => {
-              const linkHref = link.getAttribute('href');
-              if (linkHref === currentPath) {
-                link.classList.add('active'); // 設置 active 樣式
-              } else {
-                link.classList.remove('active');
-              }
-            });
-      
-            // 處理 dropdown-item 連結
-            const dropdownItems = document.querySelectorAll('.dropdown-menu .dropdown-item');
-            dropdownItems.forEach(item => {
-              const itemHref = item.getAttribute('href');
-              if (itemHref === currentPath) {
-                item.classList.add('active'); // 設置 active 樣式
-              } else {
-                item.classList.remove('active');
-              }
-            });
-          }
-        </script>
-        <link rel="stylesheet" href="./css/style.css">
-      
-      </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI KIT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    // 加載並插入 navbar
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+        highlightCurrentPage(); // 加載完成後執行 active 樣式
+      });
+
+    // 判斷當前頁面並設置 active 樣式
+    function highlightCurrentPage() {
+      const currentPath = window.location.pathname.split('/').pop(); // 獲取當前頁面的檔名
+
+      // 處理一般的 navbar 連結
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+      navLinks.forEach(link => {
+        const linkHref = link.getAttribute('href');
+        if (linkHref === currentPath) {
+          link.classList.add('active'); // 設置 active 樣式
+        } else {
+          link.classList.remove('active');
+        }
+      });
+
+      // 處理 dropdown-item 連結
+      const dropdownItems = document.querySelectorAll('.dropdown-menu .dropdown-item');
+      dropdownItems.forEach(item => {
+        const itemHref = item.getAttribute('href');
+        if (itemHref === currentPath) {
+          item.classList.add('active'); // 設置 active 樣式
+        } else {
+          item.classList.remove('active');
+        }
+      });
+    }
+  </script>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
 <body class="index home">
-    
-    <div id="navbar-container"></div>
+
+  <div id="navbar-container"></div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div>
+          <img src="" alt="">
+          <p class="txt-40-B">CHENG YA HSIN</p>
+          <p class="txt-16-S">我的設計理念是以人為本，從用戶的需求與行為出發，力求創造直觀、實用且美觀的產品。
+            我相信設計不僅僅是解決問題的工具，更是一種情感的傳遞與共鳴。我希望透過設計，打造出能與人產生連結的使用者體驗，將實用性與情感投射結合，為日常生活增添驚喜與美好。
+            我致力於在UI/UX領域中探索更多可能性，讓每一個細節都能帶給使用者更好的陪伴與體驗。</p>
+        </div>
+        <div class="block-L">
+          <div class="col-xxl-4  box-n16 L "></div>
+
+
+          <div class="col-lg-6 box-n16 R box-border">
+<div class="box-n16 R-naka">
+  <div class="subtitle-01">
+    <p>skills</p>
+  </div>
+  <div class="skills">
+
+
+    <div>
+
+      <div class="skill">
+        <img src="img/icon/Figma.png" alt="">
+        <p>Figma
+        </p>
+      </div>
+      <div class="skill">
+        <img src="img/icon/Xd.png" alt="">
+        <p>Adobe XD
+
+
+        </p>
+      </div>
+      <div class="skill">
+        <img src="img/icon/Photoshop.png" alt="">
+        <p>Photoshop
+        </p>
+      </div>
+
+      <div class="skill">
+        <img src="img/icon/Illustrator.png" alt="">
+        <p>Illustrator
+        </p>
+      </div>
+      <div class="skill">
+        <img src="img/icon/Premiere Pro.png" alt="">
+        <p>Premiere
+        </p>
+      </div>
+
+    </div>
+
+    <div>
+      <div class="skill">
+        <img src="img/icon/Octicons-mark-github 1.png" alt="">
+        <p>Github
+        </p>
+      </div>
+      <div class="skill">
+        <img src="img/icon/ChatGPT_logo.svg 1.png" alt="">
+        <p>ChatGPT
+        </p>
+      </div>
+      <div class="skill">
+        <img src="img/icon/HTML.png" alt="">
+        <p>HTML
+
+        </p>
+      </div>
+      <div class="skill">
+        <img src="img/icon/CSS.png" alt="">
+        <p>CSS
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="col-lg-6 L   ">
+
+        <div class=" box-border">
+
+          <div class="block-R box-n16">
+          <div class="subtitle-01">
+            <p>work history</p>
+          </div>
+          <div class="block-R-naka">
+            <p class="txt-16-B">UI/UX設計師</p>
+            <p class="txt-16">擅長繪製 Wireframe、Mockup 和 Prototype，協助產品設計與開發。
+              深入了解各平台設計規範，確保界面設計符合規範並提供一致的使用體驗。
+              與客戶、PM、工程師緊密合作，參與需求訪談、Functional Map 和 UI Flow 規劃，優化專案流程與介面。
+              具備網頁切版與 SCSS 開發經驗，協助設計落地實現。</p>
+          </div>
+          <div class="block-R-naka">
+            <p class="txt-16-B">視覺設計與美編-平面設計師</p>
+            <p class="txt-16">設計電商平台 DM、廣告圖及宣傳物料，提升商品視覺吸引力與用戶購買體驗。
+              執行品牌主視覺設計，確保印刷媒體與數位平台的視覺一致性。
+              精通排版設計，將複雜內容轉化為清晰且吸引人的視覺表現，提升用戶理解與參與度。</p>
+         
+          </div>
+        </div>
+      
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class=" history">
+
+    <div class="history-naka">
+      <div class="work">
+        <p>2017/05~2017/12</p>
+        <p>攝影師</p>
+        <p>玧修文物保護事業</p>
+      </div>
+      <div class="work">
+        <p>2018/03~2020/04</p>
+        <p>行程美編</p>
+        <p>飛揚綜合旅行社</p>
+      </div>
+      <div class="work">
+        <p>2022/11~2023/05</p>
+        <p>美編平面設計</p>
+        <p>日本橋資訊股份有限公司</p>
+      </div>
+      <div class="work">
+        <p>2023/10~2024/4</p>
+        <p>UI/XU設計師</p>
+        <p>瓦吉科技股份有限公司</p>
+      </div>
+      <div class="work">
+        <p>2024/04~2025/01</p>
+        <p>UI/XU設計師</p>
+        <p>盛大資訊股份有限公司</p>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+</div>
 
 
 
-
-
-    
-
-    <footer class="footer"></footer>
+  <footer class="footer"></footer>
 </body>
+
+
 </html>
