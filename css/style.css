@@ -1532,6 +1532,15 @@ button {
   gap: 8px;
 }
 
+.about {
+  display: flex;
+  gap: 32px;
+}
+.about img {
+  width: 80px;
+  height: 80px;
+}
+
 .navbar-container {
   width: 100%;
 }
