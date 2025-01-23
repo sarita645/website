@@ -4,10 +4,10 @@
 
 //按鈕文字+icon
 button {
-  display: flex
-  ;
+  display: flex;
       align-items: center;
 gap: 8px;
+border-radius: 10px; /* 圓形 */
 }
 
 

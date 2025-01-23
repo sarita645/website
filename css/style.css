@@ -403,6 +403,12 @@
   display: flex;
   gap: 30px;
   flex-direction: column;
+  padding: 0 0 32px 0;
+}
+.index .async .to-portfolio {
+  display: flex;
+  gap: 16px;
+  padding: 0 0 32px 0;
 }
 
 /* 修改反白選取顏色 */
@@ -1366,6 +1372,7 @@ button {
   display: flex;
   align-items: center;
   gap: 8px;
+  border-radius: 10px; /* 圓形 */
 }
 
 .btn-style01 {
@@ -1544,6 +1551,7 @@ button {
 .navbar-brand img {
   width: 40px;
   height: 40px;
+  border-radius: 30px; /* 設定圓角半徑 */
 }
 
 .navbar-collapse {
