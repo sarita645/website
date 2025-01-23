@@ -22,6 +22,9 @@ border-radius: 10px; /* 圓形 */
   color: $white;
   border: 1px solid transparent;
 padding: 10px;
+border-radius: 5px; /* 圓角 */
+display: inline-flex;
+  align-items: center;
 
   &:hover {
     background-color:$light-green-900;
@@ -44,7 +47,17 @@ padding: 10px;
 
 }
 
+@media (max-width: 768px) {
+  .to-portfolio {
+    flex-direction: column; /* 在小螢幕上按鈕垂直排列 */
+    gap: 10px;
+  }
 
+  .btn-style01 {
+    width: 100%; /* 按鈕全寬 */
+    text-align: center;
+  }
+}
 
 
 

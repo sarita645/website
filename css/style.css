@@ -1380,6 +1380,9 @@ button {
   color: #FFFFFF;
   border: 1px solid transparent;
   padding: 10px;
+  border-radius: 5px; /* 圓角 */
+  display: inline-flex;
+  align-items: center;
 }
 .btn-style01:hover {
   background-color: #33691e;
@@ -1392,6 +1395,16 @@ button {
   border-color: #fdd835;
 }
 
+@media (max-width: 768px) {
+  .to-portfolio {
+    flex-direction: column; /* 在小螢幕上按鈕垂直排列 */
+    gap: 10px;
+  }
+  .btn-style01 {
+    width: 100%; /* 按鈕全寬 */
+    text-align: center;
+  }
+}
 .btn-style02 {
   background-color: #1558c0;
   color: #FFFFFF;
