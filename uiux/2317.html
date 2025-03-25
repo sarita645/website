@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sarita portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script>
+      // 加載並插入 navbar
+      fetch('../navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar-container').innerHTML = data;
+          highlightCurrentPage(); // 加載完成後執行 active 樣式
+        });
+  
+      // 判斷當前頁面並設置 active 樣式
+      function highlightCurrentPage() {
+        const currentPath = window.location.pathname.split('/').pop(); // 獲取當前頁面的檔名
+  
+        // 處理一般的 navbar 連結
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+        navLinks.forEach(link => {
+          const linkHref = link.getAttribute('href');
+          if (linkHref === currentPath) {
+            link.classList.add('active'); // 設置 active 樣式
+          } else {
+            link.classList.remove('active');
+          }
+        });
+  
+        // 處理 dropdown-item 連結
+        const dropdownItems = document.querySelectorAll('.dropdown-menu .dropdown-item');
+        dropdownItems.forEach(item => {
+          const itemHref = item.getAttribute('href');
+          if (itemHref === currentPath) {
+            item.classList.add('active'); // 設置 active 樣式
+          } else {
+            item.classList.remove('active');
+          }
+        });
+      }
+    </script>
+    <link rel="stylesheet" href="./css/style.css">
+  
+  
+  
+  
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CD370JX6XW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-CD370JX6XW');
+  </script>
+  </head>
+
+
+
+
+
+
+
+
+<body class="iro_2317">
+
+    <!-- 導覽列開始 -->
+    <div id="navbar-container"></div>
+
+    <div>
+
+        <!-- 標題 -->
+        <div>
+
+
+            <div class="container">
+                <div class="rol">
+
+                    <div class="col-md-10 ue_a  wow animate__animated animate__fadeInDown animate__delay-0.5s">
+                        <p class="special_c">永 昇冷凍食品_壹 然</p>
+                        <a href="https://ever-nature.wagikgdemo.com.tw/" target="_blank">
+                            <p class="txt">https://ever-nature.wagikgdemo.com.tw/</p>
+                        </a>
+                        <p class="txt">RWD｜figma｜Wireflow、Logic Flow｜with PM、engineer</p>
+                   <p class="txt">Duration：2023/10-11</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="container pt-5 mb-5">
+
+                <div class="rol sarita-box05  wow animate__animated animate__fadeIn animate__delay-1.5s">
+
+
+                    <div class="col-md-12">
+                        <img src="../img/uiux/2317/2317_首圖.jpg" alt="">
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+            <!-- 內容開始 -->
+            <div class="container sarita-box">
+                <!-- 概述 -->
+                <div class="row justify-content-md-around">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <p class="mb-5 txtframe wow animate__animated animate__fadeInLeft animate__delay-1s">Overview</p>
+                    </div>
+                    <div class="col-md-8 wow animate__animated animate__fadeInRight animate__delay-1s">
+                        <p class="mb-5 txt">
+                            About product：這是一家專營健康食品的電子商務平台。致力於為客戶提供天然、無添加、高品質的健康食品，讓吃得人感到健康又美味。
+                            <br>
+                            主要產品產品涵蓋了各種保健食品、營養補充劑、有機食品等，嚴選自世界各地的優質品牌，並經過嚴格的檢驗和測試...等。
+                            <br>
+                            希望能告訴客戶健康是生活的基礎。會通過提供優質的健康食品，幫助人們打造更健康、更幸福的生活。
+                        </p>
+
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <!-- 介紹 問題+目標 -->
+                <div class="row justify-content-md-around">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <p class="mb-5 txtframe wow animate__animated animate__fadeInLeft animate__delay-1s">
+                            Introduction</p>
+                    </div>
+                    <div class="col-md-8 wow animate__animated animate__fadeInRight animate__delay-1s">
+                        <p class="mb-5 txt">
+                            Problem：沒有自己的網站，商品有不同的配送問題所以有不同運費。
+                            <br>
+                            Goal：透過線上平台推廣品牌，並利用電子商務銷售平台，達到更多元的購買方式，也依照溫層設計不同結帳狀況。
+                        </p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+                <!-- 我的角色  擔任角色+職責 -->
+                <div class="row justify-content-md-around">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <p class="mb-5 txtframe wow animate__animated animate__fadeInLeft animate__delay-1s">
+                            My Role</p>
+                    </div>
+                    <div class="col-md-8 wow animate__animated animate__fadeInRight animate__delay-1s">
+                        <p class="mb-5 txt">
+                            My role：UI/UX設計，從概念到交付致工程端製作。
+                        </p>
+                        <p class="mb-5 txt">
+                            Responsibilities：進行訪談與反饋整理、繪製Flow Chart、Wireframe、Mockup...等，購物流程導向設計，確定資訊架構與回應設計。
+                        </p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+
+                <!-- 理解使用者 -->
+                <div class="row justify-content-md-around">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <p class="mb-5 txtframe wow animate__animated animate__fadeInLeft animate__delay-1s">
+                            Understanding the user</p>
+                    </div>
+                    <div class="col-md-8 wow animate__animated animate__fadeInRight animate__delay-1s">
+                        <p class="mb-5 txt">
+                            User Research
+                            Summary：根據商家的反饋，他們的客群多為18歲至50歲左右的健康主義者。由於品牌本身沒有自己的銷售平台，顧客可能因此買到非廠商販賣的商品，甚至被提高價格。
+                            <br>
+                            因此，商家希望建立一個專屬網站，以集中商家的健康食品推薦文章，並提供更清楚的品牌資訊。
+                        </p>
+
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+                <!-- 痛點 -->
+                <div class="row justify-content-md-around">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <p class="mb-5 txtframe wow animate__animated animate__fadeInLeft animate__delay-1s">
+                            Paint Points</p>
+                    </div>
+                    <div class="col-md-8 wow animate__animated animate__fadeInRight animate__delay-1s">
+                        <p class="mb-5 txt">
+                    1.搜尋功能必須清楚，以免使用者花太多時間尋找商品
+                    <br>
+                    2.配合SEO需求導航列怕混亂，呈現不清楚
+                    <br>
+                    3.進入網站後需要，自然健康感，但又不希望與競品太過雷同
+                        </p>
+
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+
+
+                 <!-- 網站地圖 -->
+                 <div class="row justify-content-md-around">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <p class="mb-5 txtframe wow animate__animated animate__fadeInLeft animate__delay-1s">
+                            Sitemap</p>
+                    </div>
+                    <div class="col-md-8 wow animate__animated animate__fadeInRight animate__delay-1s">
+
+                            <img class="mb-5" src="../img/uiux/2317/2317_Sitemap.jpg" alt="">
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+
+
+                 <!-- 原型-->
+                 <div class="row justify-content-md-around">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <p class="mb-5 txtframe wow animate__animated animate__fadeInLeft animate__delay-1s">
+                            Mockups</p>
+                    </div>
+                    <div class="col-md-8 wow animate__animated animate__fadeInRight animate__delay-1s">
+
+                            <img class="mb-5" src="../img/uiux/2317/2317_mockups.jpg" alt="">
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+
+                <!-- 結尾 -->
+                <div class="row justify-content-md-around">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <p class="mb-5 txtframe wow animate__animated animate__fadeInLeft animate__delay-1s">
+                            Takeaways</p>
+                    </div>
+                    <div class="col-md-8 wow animate__animated animate__fadeInRight animate__delay-1s">
+                        <p class="mb-5 txt">
+                            Impact：導覽列的實際執行上跟工程端交涉了一段時間。
+                        </p>
+                        <br>
+                        <p class="mb-5 txt">
+                            What I learned：我瞭解到，如果在一個快速製作的專案中，如若繪製Mockups來不及，也可先利用類似作品，先進一步與工程端溝通可執行程度。
+
+                        </p>
+
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+
+
+
+
+            </div>
+            <!-- 內容結束 -->
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
+            <p>© 2025 sarita</p>
+          </footer>
+          <script src="./script.js"></script> 
+
+    </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+
+<!-- woo -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>new WOW().init();</script>
+
+
+
+</html>
