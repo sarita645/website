@@ -406,3 +406,28 @@ $line-height: 1.5;
 
   }
 }
+
+
+
+
+
+
+//*標題方框*//
+p.txtframe{
+  line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+  letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
+  font-size: 16px;
+  border: 0.5px outset rgb(134, 134, 134); /* 设置边框宽度为2像素，样式为outset，颜色为黑色 */
+padding: 4px 10px;
+
+}
+//*標題方框-有底色*//
+p.txtframe-O{
+  line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+  letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
+  font-size: 16px;
+  background-color: #CED4DA;
+  border: 0.5px outset rgb(163, 163, 163); /* 设置边框宽度为2像素，样式为outset，颜色为黑色 */
+padding: 4px 10px;
+
+}

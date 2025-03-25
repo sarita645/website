@@ -380,6 +380,23 @@
   background-color: rgba(211, 211, 211, 0.263);
 }
 
+p.txtframe {
+  line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+  letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
+  font-size: 16px;
+  border: 0.5px outset rgb(134, 134, 134); /* 设置边框宽度为2像素，样式为outset，颜色为黑色 */
+  padding: 4px 10px;
+}
+
+p.txtframe-O {
+  line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+  letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
+  font-size: 16px;
+  background-color: #CED4DA;
+  border: 0.5px outset rgb(163, 163, 163); /* 设置边框宽度为2像素，样式为outset，颜色为黑色 */
+  padding: 4px 10px;
+}
+
 .index .bg-txt {
   padding: 40px 0 0 0;
 }
@@ -1778,6 +1795,164 @@ body {
   gap: 32px;
   border: 0.5px outset rgb(163, 163, 163);
   height: 100%;
+}
+
+.uiux .banner_a {
+  width: auto;
+  height: auto;
+}
+.uiux .banner_a .rol {
+  display: flex;
+}
+.uiux .banner_a .rol .ue_a {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  border-style: outset;
+  border-width: 0px 0px 8px;
+  border-bottom-color: #1A2C44;
+}
+.uiux .banner_a .rol .ue_a p {
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+.uiux .sarita-box {
+  margin-bottom: 80px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.uiux .sarita-boxx {
+  margin-bottom: 80px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.uiux .sarita-box02a {
+  padding-top: 0px;
+}
+.uiux .sarita-box02a .rol {
+  display: flex;
+  justify-content: space-between;
+}
+.uiux .sarita-box02a .about_R img {
+  max-width: 100%;
+}
+.uiux .sarita-box02b {
+  padding: 40px 0px;
+}
+.uiux .sarita-job {
+  padding: 0px 20px;
+}
+.uiux .DesignFlow-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.uiux .image-container {
+  position: relative;
+  overflow: hidden;
+}
+.uiux .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* 默认不可见 */
+  transition: opacity 0.3s ease; /* 添加过渡效果 */
+}
+.uiux .overlay-2317 {
+  background-image: url("../img/img-2317b.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2335 {
+  background-image: url("../img/img-2335b.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2328 {
+  background-image: url("../img/img-2328b.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2349 {
+  background-image: url("../img/img-2349b.jpg"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2325 {
+  background-image: url("../img/img-2325b.jpg"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2328_07b {
+  background-image: url("../img/img-2328_07b.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2328_02b {
+  background-image: url("../img/img-2328_02b.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2328_03b {
+  background-image: url("../img/img-2328_03.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2401 {
+  background-image: url("../img/img-2401b.jpg"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2328_07c {
+  background-image: url("../img/img-2328_07c2.jpg"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2400 {
+  background-image: url("../img/img-2400_01b.jpg"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .image-container:hover .overlay {
+  opacity: 1; /* 悬停时显示 */
+}
+
+.design .banner_a {
+  width: auto;
+  height: auto;
+}
+.design .banner_a .rol {
+  display: flex;
+}
+.design .banner_a .rol .ue_a {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  border-style: outset;
+  border-width: 0px 0px 8px;
+  border-bottom-color: #1A2C44;
+}
+.design .banner_a .rol .ue_a p {
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+.design .sarita-box {
+  margin-bottom: 80px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.design .gallery {
+  padding: 60px 0px;
+}
+.design .gallery img {
+  cursor: pointer;
+  width: 100%;
+}
+.design #gallery-modal .modal-img {
+  width: 100%;
+}
+.design .gallery-diaic {
+  display: flex;
+  align-items: center;
 }
 
 /* 重置所有元素的邊距、內距、邊框、字體大小、字體及垂直對齊基準 */

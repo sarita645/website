@@ -1,0 +1,187 @@
+
+
+.uiux {
+    .banner_a {
+        // background-color: cornflowerblue;
+        width: auto;
+        height: auto;
+    
+    
+    
+    
+        .rol {
+            display: flex;
+    
+    
+            .ue_a {
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 80px;
+                padding-bottom: 40px;
+                border-style: outset;
+                border-width: 0px 0px 8px;
+                border-bottom-color: #1A2C44;
+    
+    
+    
+                p {
+                    margin-top: 20px;
+                    margin-bottom: 1rem;
+                }
+    
+            }
+        }
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    .sarita-box {
+        margin-bottom: 80px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .sarita-boxx{
+        margin-bottom: 80px;
+    
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    
+    
+        .sarita-box02a {
+            padding-top: 0px;
+    
+            .rol {
+                display: flex;
+                justify-content: space-between;
+            }
+    
+            .about_R {
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    
+    
+    
+        .sarita-box02b {
+            padding: 40px 0px;
+        }
+    
+    
+    
+    
+        .sarita-job {
+            padding: 0px 20px;
+    
+        }
+    
+    
+    
+        .DesignFlow-img{
+            display: flex;
+    
+            flex-direction: column;
+            align-items: center;
+        }
+    
+    
+    
+    
+    
+        .image-container {
+            position: relative;
+            overflow: hidden;
+        }
+     
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0; /* 默认不可见 */
+        transition: opacity 0.3s ease; /* 添加过渡效果 */
+    }
+    
+    .overlay-2317 {
+        background-image: url('../img/img-2317b.png'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    .overlay-2335 {
+        background-image: url('../img/img-2335b.png'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    .overlay-2328 {
+        background-image: url('../img/img-2328b.png'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    
+    .overlay-2349 {
+        background-image: url('../img/img-2349b.jpg'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    .overlay-2325 {
+        background-image: url('../img/img-2325b.jpg'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    .overlay-2328_07b {
+        background-image: url('../img/img-2328_07b.png'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    
+    .overlay-2328_02b {
+        background-image: url('../img/img-2328_02b.png'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    
+    .overlay-2328_03b {
+        background-image: url('../img/img-2328_03.png'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    .overlay-2401 {
+        background-image: url('../img/img-2401b.jpg'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    .overlay-2328_07c {
+        background-image: url('../img/img-2328_07c2.jpg'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    
+    
+    .overlay-2400{
+        background-image: url('../img/img-2400_01b.jpg'); /* 悬停时的背景图像路径 */
+        background-size: cover;
+    }
+    
+    
+    
+    .image-container:hover .overlay {
+        opacity: 1; /* 悬停时显示 */
+    }
+    }
+    
+    
+    
+    
+    

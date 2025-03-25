@@ -1,13 +1,13 @@
 @import './txt.scss';
-@import'./main.scss';
-@import'./color.scss';
+@import'./_main.scss';
+@import'./_color.scss';
 @import'./_button.scss';
 @import'./_corner.scss';
 @import'./_about.scss';
 @import'./_navbar.scss';
-@import'./common.scss';
-
-
+@import'./_common.scss';
+@import'./_uiux.scss';
+@import'./_art.scss';
 
 
 /* 重置所有元素的邊距、內距、邊框、字體大小、字體及垂直對齊基準 */
